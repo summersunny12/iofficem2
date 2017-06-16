@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('src/main/java/libs/java-client-4.1.2.jar')
+    compile files('src/main/java/libs/selenium-java-2.53.0.jar')
+    compile files('src/main/java/libs/selenium-java-2.53.0-srcs.jar')
+    compile files('src/main/java/libs/selenium-server-standalone-2.53.0.jar')
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
